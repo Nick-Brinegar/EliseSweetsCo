@@ -216,7 +216,7 @@ export default function App() {
                   <p className="font-medium text-stone-900">Quick links</p>
                   <div className="mt-3 flex flex-col gap-2">
                     <a href="https://instagram.com/elisesweetsco" className="underline decoration-rose-300 underline-offset-4">@elisesweetsco</a>
-                    <a href="elisejayy6@gmail.com" className="underline decoration-rose-300 underline-offset-4">elisejayy6@gmail.com</a>
+                    <a href="Elisesweetsco@gmail.com" className="underline decoration-rose-300 underline-offset-4">Elisesweetsco@gmail.com</a>
                   </div>
                 </div>
               </div>

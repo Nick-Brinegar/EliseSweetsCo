@@ -192,10 +192,11 @@ export default function App() {
               <p className="text-sm uppercase tracking-[0.25em] text-stone-500">Order inquiry</p>
               <h2 className="mt-2 font-serif text-4xl text-stone-900">Let’s make something sweet.</h2>
 
-              <form action="https://formspree.io/f/your-form-id" method="POST" className="mt-8 grid gap-4">
+              <form action="https://formspree.io/f/mwvwyoyd" method="POST" className="mt-8 grid gap-4">
+                <input type="hidden" name="_subject" value="New Cookie Order Inquiry 🍪" />
                 <div className="grid gap-4 md:grid-cols-2">
-                  <input name="name" placeholder="Your name" className="rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 outline-none transition focus:border-stone-400" />
-                  <input name="email" type="email" placeholder="Email address" className="rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 outline-none transition focus:border-stone-400" />
+                  <input name="name" placeholder="Your name" className="rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 outline-none transition focus:border-stone-400" required />
+                  <input name="email" type="email" placeholder="Email address" className="rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 outline-none transition focus:border-stone-400" required />
                 </div>
                 <div className="grid gap-4 md:grid-cols-2">
                   <input name="date" placeholder="Event date" className="rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 outline-none transition focus:border-stone-400" />

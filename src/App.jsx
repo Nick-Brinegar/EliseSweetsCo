@@ -45,6 +45,9 @@ export default function App() {
           <div>
             <p className="font-serif text-xl tracking-wide">Elise Sweets Co.</p>
             <p className="text-xs uppercase tracking-[0.25em] text-stone-500">Custom decorated cookies</p>
+            <p className="mt-2 text-sm text-stone-500">
+              Based in Loveland, Colorado • Local pickup available
+            </p>
           </div>
           <nav className="hidden gap-6 text-sm md:flex">
             <a href="#gallery" className="transition hover:text-stone-950">Gallery</a>

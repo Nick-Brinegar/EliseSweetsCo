@@ -26,7 +26,7 @@ export default function App() {
   const faqs = [
     {
       q: "How far in advance should I order?",
-      a: "At least 1 to 2 weeks is ideal. Rush orders may be available depending on the calendar.",
+      a: "2 weeks is ideal. Rush orders may be available depending on the calendar.",
     },
     {
       q: "Do you make custom themes?",
@@ -35,7 +35,7 @@ export default function App() {
     {
       q: "Do you offer delivery?",
       a: "Pickup is easiest, but local delivery can be discussed depending on location and schedule.",
-    },
+    }
   ];
 
   return (
@@ -162,7 +162,7 @@ export default function App() {
             <div className="rounded-[2rem] bg-stone-900 p-8 text-white shadow-sm">
               <p className="text-sm uppercase tracking-[0.2em] text-stone-300">How it works</p>
               <ol className="mt-4 space-y-4 text-sm leading-7 text-stone-100">
-                <li>1. Send an order inquiry</li>
+                <li>1. Send an order inquiry (Please allow at least 2 weeks notice)</li>
                 <li>2. Confirm your date, quantity, and theme</li>
                 <li>3. Approve the details and payment</li>
                 <li>4. Pickup or delivery gets arranged</li>
@@ -192,6 +192,9 @@ export default function App() {
               <p className="text-sm uppercase tracking-[0.25em] text-stone-500">Order inquiry</p>
               <h2 className="mt-2 font-serif text-4xl text-stone-900">Let’s make something sweet.</h2>
 
+              <p className="mt-4 text-sm text-stone-600">
+                Please note: orders require at least <strong>2 weeks notice</strong>.
+              </p>
               <form action="https://formspree.io/f/xbdqvyly" method="POST" className="mt-8 grid gap-4">
                 <input type="hidden" name="_subject" value="New Cookie Order Inquiry 🍪" />
                 <div className="grid gap-4 md:grid-cols-2">
